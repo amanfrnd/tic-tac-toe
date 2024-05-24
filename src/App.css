@@ -1,0 +1,48 @@
+.board{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.board-container{
+  margin:20px;
+  border:1px solid grey;
+  width:30%;
+  margin:auto;
+}
+
+.square{
+  width:100px;
+  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid grey;
+  margin:auto;
+  cursor: pointer;
+}
+
+h3{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color:blue;
+}
+
+.square h3{
+  color:red;
+}
+
+.resetStyle{
+  border-radius: 20px;
+  padding:10px;
+  color:pink;
+  background-color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.resetStyle:hover{
+  color: red;
+  background-color: pink;
+}
